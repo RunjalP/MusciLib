@@ -33,7 +33,7 @@ mongoose.connect("mongodb+srv://RunjalDB:Rajashree%401970@cluster0.dqyzr.mongodb
     console.log(e)
 })
 //port listening
-app.listen(process.env.PORT ||8000,()=>{
+app.listen(8000,()=>{
     console.log("server started")
 })
 
